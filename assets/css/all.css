@@ -15943,3 +15943,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.card .card-img-top {
+  -webkit-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+}
+.card:hover .card-img-top {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
