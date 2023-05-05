@@ -9,150 +9,236 @@
   <link rel="stylesheet" href="./assets/css/all.css">
 </head>
 
-<body class="bg-dark py-5">
+<body class="bg-dark">
+  <header class="header container mb-14">
+    <nav class="navbar navbar-expand-lg py-5 border-bottom border-white">
+      <h1 class="mb-0 lh-0"><a class="navbar-brand p-0 m-0 d-block" href="#"><img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/logo.png?raw=true"
+            alt="Logo" class="d-inline-block" style="width: 235px;"></a></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">定價</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="banner position-relative pt-9 pb-14">
+      <h2 class="display-2 mb-9">透過<br>AI 工具王的<br>強大模型<br>讓您的業務更聰明</h2>
+      <a href="javascript:;" class="btn btn-outline-light fw-bold">開始使用</a>
+      <div class="decoWrap d-flex position-absolute bottom-0 end-0">
+        <span class="d-inline-block">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
+            alt="deco" class="deco"></span>
+        <span class="d-inline-block">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
+            alt="deco" class="deco"></span>
+        <span class="d-inline-block">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
+            alt="deco" class="deco"></span>
+    </section>
+  </header>
 
-  <!-- card  -->
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-      <div class="col">
-        <div class="card h-100 overflow-hidden">
-          <div class="overflow-hidden">
-            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool1.png"
-              class="card-img-top" alt="...">
+  <main>
+    <!-- service -->
+    <section class="py-9 py-lg-14">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="fw-bold h3 mb-5">我們的服務</h2>
           </div>
-          <div class="card-body py-5 px-8">
-            <h6 class="card-title fw-bold">Chatbot Builder</h6>
-            <p class="card-text small text-black-80">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
+          <div class="col-lg-8">
+            <p class="h1 fw-bold">我們相信透過 AI 技術，
+              包括圖像識別、自然語言處理和機器翻譯等，讓您更快、更準確地做出決策。</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
-              AI 模型
-              <span class="fw-normal">卡卡</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              #聊天
-              <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
-            </li>
-          </ul>
+        </div>
+        <div class="mt-10 mt-lg-14 row row-cols-1 row-cols-lg-3 g-3">
+          <div class="col">
+            <div class="card h-100 bg-dark">
+              <div class="card-body py-lg-14 px-lg-9 py-9 px-5">
+                <i class="bi bi-lightning-fill text-white d-block display-3 mb-5 lh-0"></i>
+                <h3 class="card-title fw-bold mb-5">快速</h3>
+                <p class="card-text">我們先進的推理基礎設施提供了極短的響應時間，讓你的產品服務不間斷。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark">
+              <div class="card-body py-lg-14 px-lg-9 py-9 px-5">
+                <i class="bi bi-lightning-fill text-white d-block display-3 mb-5 lh-0"></i>
+                <h3 class="card-title fw-bold mb-5">靈活</h3>
+                <p class="card-text">我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark">
+              <div class="card-body py-lg-14 px-lg-9 py-9 px-5">
+                <i class="bi bi-lightning-fill text-white d-block display-3 mb-5 lh-0"></i>
+                <h3 class="card-title fw-bold mb-5">擴充</h3>
+                <p class="card-text">我們的服務支持多種擴充選項，可以滿足您的不斷增長的 AI 需求。</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="card h-100 overflow-hidden">
-          <div class="overflow-hidden">
-            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool2.png"
-              class="card-img-top" alt="...">
+    </section>
+    <!-- card  -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 overflow-hidden">
+            <div class="overflow-hidden">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool1.png"
+                class="card-img-top" alt="...">
+            </div>
+            <div class="card-body py-5 px-8">
+              <h6 class="card-title fw-bold">Chatbot Builder</h6>
+              <p class="card-text small text-black-80">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
+                AI 模型
+                <span class="fw-normal">卡卡</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                #聊天
+                <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="card-body py-5 px-8">
-            <h6 class="card-title fw-bold">Chatbot Builder</h6>
-            <p class="card-text small text-black-80">專業的圖像識別平台，識別圖像、分類、標記等。</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
-              AI 模型
-              <span class="fw-normal">杰杰</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              #影像辨識
-              <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
-            </li>
-          </ul>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card h-100 overflow-hidden">
-          <div class="overflow-hidden">
-            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool3.png"
-              class="card-img-top" alt="...">
+        <div class="col">
+          <div class="card h-100 overflow-hidden">
+            <div class="overflow-hidden">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool2.png"
+                class="card-img-top" alt="...">
+            </div>
+            <div class="card-body py-5 px-8">
+              <h6 class="card-title fw-bold">Chatbot Builder</h6>
+              <p class="card-text small text-black-80">專業的圖像識別平台，識別圖像、分類、標記等。</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
+                AI 模型
+                <span class="fw-normal">杰杰</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                #影像辨識
+                <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="card-body py-5 px-8">
-            <h6 class="card-title fw-bold">Language Translation API</h6>
-            <p class="card-text small text-black-80">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
-              AI 模型
-              <span class="fw-normal">琪琪</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              #翻譯
-              <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
-            </li>
-          </ul>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card h-100 overflow-hidden">
-          <div class="overflow-hidden">
-            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool4.png"
-              class="card-img-top" alt="...">
+        <div class="col">
+          <div class="card h-100 overflow-hidden">
+            <div class="overflow-hidden">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool3.png"
+                class="card-img-top" alt="...">
+            </div>
+            <div class="card-body py-5 px-8">
+              <h6 class="card-title fw-bold">Language Translation API</h6>
+              <p class="card-text small text-black-80">專業的語言翻譯 API，實現文本翻譯功能，支援多種格式的文本。</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
+                AI 模型
+                <span class="fw-normal">琪琪</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                #翻譯
+                <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="card-body py-5 px-8">
-            <h6 class="card-title fw-bold">Sentiment Analysis API</h6>
-            <p class="card-text small text-black-80">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
-              AI 模型
-              <span class="fw-normal">昊昊</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              #行銷
-              <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
-            </li>
-          </ul>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card h-100 overflow-hidden">
-          <div class="overflow-hidden">
-            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool5.png"
-              class="card-img-top" alt="...">
+        <div class="col">
+          <div class="card h-100 overflow-hidden">
+            <div class="overflow-hidden">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool4.png"
+                class="card-img-top" alt="...">
+            </div>
+            <div class="card-body py-5 px-8">
+              <h6 class="card-title fw-bold">Sentiment Analysis API</h6>
+              <p class="card-text small text-black-80">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
+                AI 模型
+                <span class="fw-normal">昊昊</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                #行銷
+                <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="card-body py-5 px-8">
-            <h6 class="card-title fw-bold">Fraud Detection Platform</h6>
-            <p class="card-text small text-black-80">預防詐騙活動，適用於銀行、金融、電商等。</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
-              AI 模型
-              <span class="fw-normal">卡卡</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              #客服
-              <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
-            </li>
-          </ul>
         </div>
-      </div>
 
-      <div class="col">
-        <div class="card h-100 overflow-hidden">
-          <div class="overflow-hidden">
-            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool6.png"
-              class="card-img-top" alt="...">
+        <div class="col">
+          <div class="card h-100 overflow-hidden">
+            <div class="overflow-hidden">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool5.png"
+                class="card-img-top" alt="...">
+            </div>
+            <div class="card-body py-5 px-8">
+              <h6 class="card-title fw-bold">Fraud Detection Platform</h6>
+              <p class="card-text small text-black-80">預防詐騙活動，適用於銀行、金融、電商等。</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
+                AI 模型
+                <span class="fw-normal">卡卡</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                #客服
+                <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="card-body py-5 px-8">
-            <h6 class="card-title fw-bold">Voice Assistant SDK</h6>
-            <p class="card-text small text-black-80">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。</p>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 overflow-hidden">
+            <div class="overflow-hidden">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/tool6.png"
+                class="card-img-top" alt="...">
+            </div>
+            <div class="card-body py-5 px-8">
+              <h6 class="card-title fw-bold">Voice Assistant SDK</h6>
+              <p class="card-text small text-black-80">通過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
+                AI 模型
+                <span class="fw-normal">杰杰</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                #生產力
+                <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
+              </li>
+            </ul>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item d-flex justify-content-between align-items-center fw-semibold">
-              AI 模型
-              <span class="fw-normal">杰杰</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              #生產力
-              <a href="javascript:;" class="card-link"><i class="bi bi-share-fill text-dark"></i></a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </body>
 
 </html>

@@ -1,0 +1,7 @@
+.nav-link {
+  color: $white;
+  padding: 8px 10px!important;
+  &:hover {
+    color: rgba(255,255,255,.5)
+  }
+}

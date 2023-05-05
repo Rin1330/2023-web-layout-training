@@ -1,0 +1,14 @@
+.banner {
+  height: 731px;
+  transition: height .25s ease 0s; 
+  @include media-breakpoint-up(md) {
+    height: 1000px;
+  }
+  .deco {
+    width: 117px;
+    transition: all .25s ease 0s;
+    @include media-breakpoint-up(md) {
+      width: 180px;
+    }
+  }
+}
