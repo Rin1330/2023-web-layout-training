@@ -480,7 +480,7 @@ $position-values: (
 
 $body-text-align:           null !default;
 $body-color:                $white !default;
-$body-bg:                   $white !default;
+$body-bg:                   #1e1e1e !default;
 
 $body-secondary-color:      rgba($body-color, .75) !default;
 $body-secondary-bg:         $gray-200 !default;
@@ -548,8 +548,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
+  xl: 1320px,
+  xxl: 1440px,
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -1379,20 +1379,20 @@ $placeholder-opacity-min:           .2 !default;
 $card-spacer-y:                     $spacer !default;
 $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * 0.75 !default;
-$card-title-color:                  null !default;
+$card-title-color:                  $black-100 !default;
 $card-subtitle-color:               null !default;
 $card-border-width:                 var(--#{$prefix}border-width) !default;
-$card-border-color:                 #F2F2F2 !default;
+$card-border-color:                 $black-20 !default;
 $card-border-radius:                1rem !default;
 $card-box-shadow:                   null !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-padding-y:                $card-spacer-y * .5 !default;
 $card-cap-padding-x:                $card-spacer-x !default;
-$card-cap-bg:                       rgba(var(--#{$prefix}body-color-rgb), .03) !default;
+$card-cap-bg:                       rgba(var(--#{$prefix}body-color-rgb), 1) !default;
 $card-cap-color:                    null !default;
 $card-height:                       null !default;
 $card-color:                        null !default;
-$card-bg:                           var(--#{$prefix}body-bg) !default;
+$card-bg:                           var(--#{$prefix}body-bg-dark) !default;
 $card-img-overlay-padding:          $spacer !default;
 $card-group-margin:                 $grid-gutter-width * .5 !default;
 // scss-docs-end card-variables
@@ -1617,9 +1617,9 @@ $progress-bar-transition:           width .6s ease !default;
 // List group
 
 // scss-docs-start list-group-variables
-$list-group-color:                  var(--#{$prefix}body-color) !default;
-$list-group-bg:                     var(--#{$prefix}body-bg) !default;
-$list-group-border-color:           var(--#{$prefix}border-color) !default;
+$list-group-color:                  $black-100 !default;
+$list-group-bg:                     $white !default;
+$list-group-border-color:           $black-20 !default;
 $list-group-border-width:           var(--#{$prefix}border-width) !default;
 $list-group-border-radius:          var(--#{$prefix}border-radius) !default;
 
