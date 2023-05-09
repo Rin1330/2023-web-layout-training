@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     direction: 'horizontal',
     loop: true,
     spaceBetween: 20,
-    slidesPerView: "auto",
+    slidesPerView: 'auto',
     freeMode: true,
   })
 
@@ -14,7 +14,19 @@ document.addEventListener('DOMContentLoaded', () => {
     direction: 'horizontal',
     loop: true,
     spaceBetween: 20,
-    slidesPerView: "auto",
-    freeMode: true,
+    slidesPerView: 'auto',
+  })
+
+  const commentWrap = new Swiper('.commentWrap', {
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 10,
+    breakpoints: {
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 24,
+      },
+    }
   })
 })

@@ -1,0 +1,19 @@
+.filterWrap {
+  .filter-dropdown {
+    width: 132px;
+  }
+  .sort-dropdown {
+    width: 164px;
+  }
+  .btn {
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none!important;
+    transition: all .25s ease 0s;
+    &:hover {
+      font-weight: 700;
+      background-color: $black-20;
+      color: $black-100!important;
+    }
+  }
+}
