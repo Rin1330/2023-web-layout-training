@@ -29,4 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     }
   })
+
+  // const filterWrap = new Swiper('.filterWrap')
 })
