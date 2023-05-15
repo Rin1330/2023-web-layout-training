@@ -19513,3 +19513,17 @@ textarea.form-control-lg {
 .swiper .swiper-slide {
   height: auto !important;
 }
+.swiper .swiper-pagination-bullet {
+  width: 24px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-indent: -9999px;
+}

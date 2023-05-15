@@ -2,4 +2,18 @@
   .swiper-slide {
     height: auto!important;
   }
+  .swiper-pagination-bullet {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: -9999px;
+    // span {
+    //   width: 8px;
+    //   height: 8px;
+    //   border-radius: 50%;
+    //   background-color: $black-60;
+    // }
+  }
 }
