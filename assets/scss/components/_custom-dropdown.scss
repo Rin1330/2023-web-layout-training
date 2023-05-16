@@ -1,0 +1,18 @@
+.dropdown {
+  .btn {
+    font-size: 1rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    background-color: $black-20;
+    span {
+      font-size: 1rem;
+    }
+  }
+  .dropdown-toggle::after {
+    border-top: inherit;
+    border-right: inherit;
+    border-bottom: inherit;
+    border-left: inherit;
+  }
+}

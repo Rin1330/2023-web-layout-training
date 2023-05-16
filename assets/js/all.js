@@ -1,5 +1,3 @@
-import Swiper, { Navigation, Pagination, Scrollbar } from '../../node_modules/swiper';
-
 document.addEventListener('DOMContentLoaded', () => {
   // DOM Ready!
 
@@ -48,14 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
       disableOnInteraction: false,
     },
     pagination: {
-      el: '.commentWrap .swiper-pagination',
-      type: 'bullets',
-      clickable: true,
-      renderBullet: (index, className) => {
-        return `<li><a href="javascript:;" class="${className}"><span>${index + 1}</span></a></li>`
-      }
-
+      el: '.commentWrap .swiper-pagination'
     }
     
+  })
+
+  const filterWrap = new Swiper('.filterWrap', {
+    slidesPerView: 'auto',
+    spaceBetween: 8
   })
 })
